@@ -1,0 +1,11 @@
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://localhost:5432/springbootpostgresdb3
+    username: postgres
+    password: mysecretpasswordY
+    pool-size: 30
+
+rsa:
+  rsaPrivateKey: classpath:certs/private.pem
+  rsaPublicKey: classpath:certs/public.pem
+
